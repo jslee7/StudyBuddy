@@ -22,4 +22,12 @@
         android:text="Studdy Buddy"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1"
+        android:layout_marginBottom="16dp"
+        android:layout_toRightOf="@+id/section_label" />
+
 </RelativeLayout>
